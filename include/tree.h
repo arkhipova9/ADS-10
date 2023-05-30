@@ -5,7 +5,7 @@
 #include <string>
 
 class Tree {
-  private:
+ private:
   struct Node {
     char value;
     std::vector<Node*> chld;
@@ -46,7 +46,7 @@ class Tree {
       permutation(root->chld[i], sym);
     }
   }
-
+ 
  public:
   std::string operator[](int i) const {
     if (i >= perm.size()) {
