@@ -46,7 +46,7 @@ class Tree {
       permutation(root->chld[i], sym);
     }
   }
- 
+
  public:
   std::string operator[](int i) const {
     if (i >= perm.size()) {
